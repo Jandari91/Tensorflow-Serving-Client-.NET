@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorflowServingClient", "TensorflowServingClient\TensorflowServingClient.csproj", "{58373947-C547-4D49-855B-460F232B2B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{BCD23753-A4E6-4559-8854-50BF6357F989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow-Serving.Protos", "Tensorflow-Serving.Protos\Tensorflow-Serving.Protos.csproj", "{15141A7D-6721-4045-98BE-54F9955D1BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow-Serving.Utils", "Tensorflow-Serving.Utils\Tensorflow-Serving.Utils.csproj", "{E5FD981F-F65C-451A-8486-2E1E58EC838C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58373947-C547-4D49-855B-460F232B2B26}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{58373947-C547-4D49-855B-460F232B2B26}.Debug|Any CPU.Build.0 = Debug|x64
+		{58373947-C547-4D49-855B-460F232B2B26}.Debug|x64.ActiveCfg = Debug|x64
+		{58373947-C547-4D49-855B-460F232B2B26}.Debug|x64.Build.0 = Debug|x64
+		{58373947-C547-4D49-855B-460F232B2B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58373947-C547-4D49-855B-460F232B2B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58373947-C547-4D49-855B-460F232B2B26}.Release|x64.ActiveCfg = Release|x64
+		{58373947-C547-4D49-855B-460F232B2B26}.Release|x64.Build.0 = Release|x64
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Debug|Any CPU.Build.0 = Debug|x64
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Debug|x64.ActiveCfg = Debug|x64
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Debug|x64.Build.0 = Debug|x64
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Release|x64.ActiveCfg = Release|x64
+		{15141A7D-6721-4045-98BE-54F9955D1BE4}.Release|x64.Build.0 = Release|x64
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Debug|Any CPU.Build.0 = Debug|x64
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Debug|x64.ActiveCfg = Debug|x64
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Debug|x64.Build.0 = Debug|x64
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Release|x64.ActiveCfg = Release|x64
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15141A7D-6721-4045-98BE-54F9955D1BE4} = {BCD23753-A4E6-4559-8854-50BF6357F989}
+		{E5FD981F-F65C-451A-8486-2E1E58EC838C} = {BCD23753-A4E6-4559-8854-50BF6357F989}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19257A94-CD82-4E20-BEE9-EDC414452032}
+	EndGlobalSection
+EndGlobal
